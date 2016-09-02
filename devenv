@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+ssh -t ec2-user@emacsista.org 'cd devenv && make run'
+
