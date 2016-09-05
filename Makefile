@@ -1,4 +1,5 @@
 build: dotfiles
+	cd dotfiles && git stash && git pull -r
 	docker build -t devenv .
 
 dotfiles:
