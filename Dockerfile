@@ -18,6 +18,7 @@ ADD dotfiles /root/dotfiles
 
 RUN cd /root/dotfiles && make
 RUN emacs -batch -l ~/.emacs
+
 CMD cd ~ && emacs
 
 
